@@ -1,0 +1,27 @@
+@keyframes color{
+    0%{
+        background-color: red;
+    }
+     25%{
+        background-color: rgb(246, 255, 0);
+    }
+     50%{
+        background-color: rgb(34, 255, 0);
+    }
+     100%{
+        background-color: rgb(93, 0, 255);
+    }
+}
+
+
+.width{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
